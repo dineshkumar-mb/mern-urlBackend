@@ -1,3 +1,5 @@
+
+
 implementing JWT authentication in a Node.js + Express.js API:
 
 Install Dependencies: First, make sure you have Node.js and npm installed. Then, create a new Node.js project and install the necessary packages:
@@ -39,3 +41,10 @@ app.get('/protected-route', authenticateToken, (req, res) => {
 },
 Client-Side Usage: In your client application (e.g., React, Angular, or Vue), store the token (usually in local storage) and include it in the Authorization header for authenticated requests.
 Remember to replace 'your-secret-key' with a strong, unique secret key for signing and verifying tokens. Also, consider using environment variables for sensitive information.
+
+
+
+## Deployment
+
+- Frontend: Deployed on [Netlify](https://chipper-marigold-f7720c.netlify.app)
+- Backend: Deployed on [Render](https://mern-urlbackend.onrender.com)
